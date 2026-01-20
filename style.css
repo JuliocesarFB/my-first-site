@@ -1,16 +1,39 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
-    background-color: #f0f0f0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: #131111;
 }
 
-h1 {
-    color: #007bff;
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px, 40px;
+    background-color: #9B3333;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+.hero {  
+    background-color: green;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.hero-image {
+    background-color: blue;
+    max-width: 100%;
+}
+
+.hero-image img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
