@@ -1,104 +1,251 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+    		margin: 0;
+   	 		padding: 0;
+    		box-sizing: border-box;
+    		color: white;
+		}
 
-html {
-    font-size: 1rem;
-    font-family: 'Arial', sans-serif;
-}
+		body {
+    		font-family: 'Bebas Neue', cursive;
+		}	
 
-body{
-    width: 100%;
-    color: white;
-    background-color: #787973;
-}
-main {
-    flex: 1;
-}
+		a {
+    		text-decoration: none;
+    		color: black;
+		}
 
-header {
-    font-size: 1rem;
-    width: 100%;
-    background-color: #9B3333;
-    padding: 1rem;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
+		img {
+    		max-width: 100%;
+		}
 
+		header {
+			position: relative;
+			display: flex;
+			align-items: center;
+			background-color: #9B3333;
+			width: 100%;
+			height: 150px;
+			padding: 0 20px;
+		}
+		.header-container {
+    		display: flex;
+    		justify-content: space-between;
+    		align-items: center;
+    		width: 100%;
+            font-size: 2.5rem;
+		}
+		.logo {
+			position: absolute;
+    		left: 50%;
+   			transform: translateX(-50%);
+		}
+		.header-container a {
+			color: white;
+		}
+		.left {
+			margin-right: auto;
+		}
+		.right {
+			margin-left: auto;
+		}
 
-header h2 {
-    font-size: 3.5rem;
-    letter-spacing: -0.05em;   
-}
+		main {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.slogan {
+			min-height: 70vh;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: green;
+		}
+		.slogan-container{
+			min-height: 70vh;
+			width: 100%;
+			display: flex;
+		}
+		.slogan-container-1{
+			display: flex;
+			width: 40%;
+			background-color: black;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+		}
+		.slogan-container-2{
+			display: flex;
+			width: 60%;
+			background-image: url("../imagens/capa.png");
+  			background-size: cover;
+  			background-position: center;
+  			background-repeat: no-repeat;
+		}
+        .slogan-h1 {
+            font-size: 4.5rem;
+			margin-left: 2rem;
+        }
+        .slogan-h2 {
+            margin-top: -1rem;
+            font-size: 2.5rem;
+			margin-left: 2rem;
+        }
+        .slogan-buttom {
+            font-weight: bold;
+            margin-left: 2rem;
+			margin-top: 4rem;
+			width: 50%;
+			height: 15%;
+			background-color: #9B3333;
+			transition: 0.3s;
+            font-size: 2rem;
+        }
+        .slogan-buttom:hover {
+            background-color: #D98C8C;
+        }
 
-.top {
-    display: flex;
-    width: 100%;
-    height: 50vh;
-}
-
-.top-content {
-    width: 40%;
-    background-color: #131111;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.top-image {
-    width: 60%;
-    background-image: url("../imagens/capa.png");
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
- 
-
-.top-content h1 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.top-content h2 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-}
-
-.top-content button {
-    padding: 0.75rem 1.5rem;
-    background-color: #9B3333;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-/* APAGAR*/
-.main2 {
-    width: 100%;
-    background-color: green;
-    min-height: 1vh;
-    max-height: 10vh;
-}
-.filmes {
-    width: 100%;
-    background-color: yellow;
-    min-height: 1vh;
-    max-height: 10vh;
-}
-.main3 {
-    width: 100%;
-    background-color: blue;
-    min-height: 1vh;
-    max-height: 10vh;
-}
-/* APAGAR*/
-
-
-
-
+		.content {
+			min-height: 50vh;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: black;
+		}
+		.content-container{
+			min-height: 50vh;
+			width: 100%;
+			display: flex;
+		}
+		.content-container-1{
+			display: flex;
+			width: 50%;
+			background-image: url("../imagens/capa2.png");
+            background-size: cover;
+  			background-position: center;
+  			background-repeat: no-repeat;
+			margin: 2rem;
+			}
+		.content-container-2{
+			display: flex;
+			width: 50%;
+			background-color: black;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+		}
+        .content-h1 {
+            font-size: 4.5rem;
+			margin-left: 2rem;
+        }
+        .content-h2 {
+            margin-top: -1rem;
+            font-size: 2.5rem;
+			margin-left: 2rem;
+        }
+        .content-buttom {
+            font-weight: bold;
+            margin-left: 2rem;
+			margin-top: 4rem;
+			width: 50%;
+			height: 15%;
+			background-color: #9B3333;
+			transition: 0.3s;
+            font-size: 2rem;
+        }
+        .content-buttom:hover {
+            background-color: #D98C8C;
+        }
+		.film {
+			display: flex;
+			align-items: start;
+			justify-content: center;
+			flex-direction: column;
+			padding: 60px 20px;
+			background-color: hotpink;
+			min-height: 40vh;
+			width: 100%;
+		}
+		.film-container {
+			margin-bottom: 1rem;
+			display: flex;
+			align-items: start;
+			justify-content: center;
+			flex-direction: column;
+		}
+		
+		.film-cards {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: row;
+			background-color: orange;
+			width: 100%;
+		}
+		.film-card {
+			display: flex;
+			justify-content: center;
+			align-items: start;
+			margin: 0.5rem;
+			border-radius: 1rem;
+			width: 20%;
+			height: 30vh;
+			background-color: black;
+		}
+		
+		.plans{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: deeppink;
+			min-height: 50vh;
+			width: 100%;
+		}
+		.plans-container-1{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: start;
+			width: 50%;
+			height: 50vh;
+			background-color: black;
+			margin-left: 1rem;
+			border-radius: 1rem;
+		}
+		.plans-container-1 h1 {
+			font-size: 1.5rem;
+			margin-left: 2rem;
+			margin-bottom: 1rem;
+		}
+		.plans-container-1 h2 {
+			font-size: 0.82rem;
+			margin-left: 2rem;
+			margin-bottom: 1rem;
+		}
+		.plans-container-1 button {
+			margin-left: 2rem;
+			margin-bottom: 1rem;
+			width: 50%;
+			height: 15%;
+			background-color: red;
+			transition: 0.3s;
+		}
+		.plans-container-2{
+			display: flex;
+			height: 50vh;
+			width: 50%;
+			background-color: orange;
+			margin: 2rem;
+			border-radius: 1rem;
+		}
+		footer{
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			background-color: #9B3333;
+			height: 150px;
+			padding: 20px;
+		}
