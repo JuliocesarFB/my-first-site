@@ -17,7 +17,6 @@ img {
 }
 
 header {
-	position: relative;
 	display: flex;
 	align-items: center;
 	background-color: #9B3333;
@@ -48,6 +47,7 @@ header {
 }
 
 main {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -268,6 +268,143 @@ footer{
     font-size: 2.5rem;
 }
 
+@media (max-width: 1280px) {
+	
+	.slogan-container{
+		flex-direction: column-reverse;
+	}
+	.slogan-container-1, .slogan-container-2 {
+		width: 100%;
+		height: 50vh;
+	}
+
+	.slogan-h1 {	
+		font-size: 6.5rem;
+		margin: 1rem;
+		text-align: center;
+	}
+	.slogan-h2 {
+		font-size: 4.5rem;
+		margin: 1rem;
+		text-align: center;
+	}
+
+	.slogan-buttom {
+		width: 40%;
+		height: 20%;
+	}
+
+	.content-container{
+		flex-direction: column;
+	}
+	.content-container-2 {
+		width: 100%;
+		height: 50vh;	
+		align-items: center;
+	}
+	.content-container-1 {
+		width: 90%;
+		height: 50vh;	
+		align-items: center;
+	}
+	.content-h1 {
+  		font-size: 4.5rem;
+		margin-left: 0rem;
+	}
+	.content-h2 {
+    	margin-top: 3.5rem;
+    	font-size: 2.5rem;
+		margin-left: 0rem;
+	}
+	.content-buttom {
+		width: 40%;
+		height: 25%;
+	}
+
+	.plans {
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+	.plans-container-1, .plans-container-2 {
+		width: 100%;
+		height: 50vh;
+		margin: 0;
+		align-items: center;
+		text-align: center;
+	}
+	
+	.plans-container-1 button {
+		width: 40%;
+		height: 20%;
+	}
+	
+}
+
 @media (max-width: 480px) {
+	header {
+		height: 70px;
+		padding: 0 20px;
+	}
+	.header-container {
+		font-size: 1rem;
+	}
+	.slogan-container{
+		
+	}
+	.slogan-container-1 {
+		width: 100%;
+		height: 35vh;
+	}
+	.slogan-container-2{
+		width: 100%;
+		height: 35vh;
+	}
+
+	.slogan-h1 {	
+		font-size: 3.5rem;
+		margin: 0.5rem;
+	}
+	.slogan-h2 {
+		font-size: 2.5rem;
+		margin: 0rem;
+	}
+	.slogan-buttom {
+    	margin-left: 1rem;
+		margin-top: 4rem;
+    	font-size: 1rem;
+	}
+
+	/* arrumando*/
+	.content-container-1, .content-container-2 {
+		width: 100%;
+		height: 35vh;	
+	}
+	.content-h1 {
+  		font-size: 4.5rem;
+		margin-left: 0rem;
+	}
+	.content-h2 {
+    	margin-top: 3.5rem;
+    	font-size: 2.5rem;
+		margin-left: 0rem;
+	}
+	.content-buttom {
+		width: 40%;
+		height: 25%;
+	}
+
+	.plans {
+		width: 100%;
+	}
+	.plans-container-1, .plans-container-2 {
+		width: 100%;
+		height: 50vh;
+		margin: 0;
+	}
+	
+	.plans-container-1 button {
+		width: 40%;
+		height: 20%;
+	}
 	
 }
