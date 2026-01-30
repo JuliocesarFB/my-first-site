@@ -340,7 +340,7 @@ footer{
 	
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
 	header {
 		height: 70px;
 		padding: 0 20px;
@@ -348,10 +348,9 @@ footer{
 	.header-container {
 		font-size: 1rem;
 	}
-	.slogan-container{
-		
-	}
+	
 	.slogan-container-1 {
+		align-items: center;
 		width: 100%;
 		height: 35vh;
 	}
@@ -369,10 +368,12 @@ footer{
 		margin: 0rem;
 	}
 	.slogan-buttom {
-    	margin-left: 1rem;
+    	margin-left: 0;
 		margin-top: 4rem;
+		margin-left: 0;
     	font-size: 1rem;
 	}
+
 	
 	.content-container-1 {
 		width: 100%;
@@ -384,7 +385,7 @@ footer{
 		height: 35vh;
 		margin: 0rem;
 		justify-content: center;
-		align-items: start;
+		align-items: center;
 		margin-left: 1rem;
 	}
 	.content-h1 {
@@ -395,14 +396,14 @@ footer{
     	margin-top: 2.5rem;
     	font-size: 1.5rem;
 	}
+
 	.content-buttom {
 		width: 40%;
 		height: 20%;
 		font-size: 1rem;
 		margin-top: 2rem;
-		margin-left: 7rem;
-	}
-
+		margin-left: 0;
+		margin-right: 0;
 	}
 	.film {	
 		flex-direction: column;
@@ -420,8 +421,6 @@ footer{
 		align-items: center;
 	}
 	.film-card {
-	
-	    
 		margin: 0.5rem;
 		border-radius: 1rem;
 		width: 90%;
@@ -471,5 +470,4 @@ footer{
 		margin-left: 1rem;
 		margin-top: 1rem;
 	}
-	
-
+}
