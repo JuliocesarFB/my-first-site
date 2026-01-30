@@ -373,38 +373,103 @@ footer{
 		margin-top: 4rem;
     	font-size: 1rem;
 	}
-
-	/* arrumando*/
-	.content-container-1, .content-container-2 {
+	
+	.content-container-1 {
 		width: 100%;
 		height: 35vh;	
+		margin: 0rem;
+	}
+	.content-container-2 {
+		width: 100%;
+		height: 35vh;
+		margin: 0rem;
+		justify-content: center;
+		align-items: start;
+		margin-left: 1rem;
 	}
 	.content-h1 {
-  		font-size: 4.5rem;
-		margin-left: 0rem;
+  		font-size: 2.5rem;
+		
 	}
 	.content-h2 {
-    	margin-top: 3.5rem;
-    	font-size: 2.5rem;
-		margin-left: 0rem;
+    	margin-top: 2.5rem;
+    	font-size: 1.5rem;
 	}
 	.content-buttom {
 		width: 40%;
-		height: 25%;
+		height: 20%;
+		font-size: 1rem;
+		margin-top: 2rem;
+		margin-left: 7rem;
+	}
+
+	}
+	.film {	
+		flex-direction: column;
+		padding: 40px 10px;		
+	}
+	.film-container {
+		margin-left: 1.5rem;
+		margin-bottom: 1rem;
+		flex-direction: column;
+    	font-size: 1.5rem;
+	}
+
+	.film-cards {
+		flex-direction: column;
+		align-items: center;
+	}
+	.film-card {
+	
+	    
+		margin: 0.5rem;
+		border-radius: 1rem;
+		width: 90%;
+		height: auto;
+	}
+	.film-card img {
+	    width: 100%;
+	    height: auto;
+		border-radius: 10px;
 	}
 
 	.plans {
 		width: 100%;
 	}
-	.plans-container-1, .plans-container-2 {
+
+	.plans-container-2{
+		width: 90%;
+		height: auto;
+		border-radius: 10px;
+		margin: 0rem;
+	}
+
+	.plans-container-1 {
 		width: 100%;
 		height: 50vh;
 		margin: 0;
+	
+	}
+
+	.plans-container-1 h1 {
+		font-size: 2.5rem;
+		margin-left: 1rem;
+		margin-bottom: 1rem;
+	
+	}
+
+	.plans-container-1 h2 {
+		font-size: 1.5rem;
+		margin-left: 1rem;
+		margin-bottom: 1rem;
 	}
 	
 	.plans-container-1 button {
 		width: 40%;
-		height: 20%;
+		height: 15%;
+		font-size: 1rem;
+		margin-left: 1rem;
+		margin-top: 1rem;
 	}
 	
-}
+
